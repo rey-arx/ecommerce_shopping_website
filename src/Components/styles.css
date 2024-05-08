@@ -1,0 +1,101 @@
+.flex-container{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    height: 6vh;
+}
+.flex-item{
+    display: flex;
+    align-items: center;
+    margin-bottom:10px;
+    /* justify-content: space-between; */
+}
+
+.inner-flex-item{
+    margin: 3px;
+    color: #403e39;
+}
+.logo{
+    margin-left: 20px;
+    /* height: 37px;
+    width: 37px; */
+}
+.userDetails{
+    margin-right: 20px;
+}
+.navbar-right{
+    margin-right: 30px;
+}
+
+.MainPage{
+    /* background-color: #403e39; */
+    height: 55vh;
+    position:relative;
+    /* z-index: ; */
+}
+.mainpageimg{
+    position: absolute;
+    z-index: 0;
+}
+.H1{
+    margin-left:"50%"
+}
+.aaa{
+    position:absolute;
+    margin-left: 50%;
+    margin-top: 6%;
+    width: 900px;
+    height: 350px;
+    /* z-index: 3; */
+
+}
+h1{
+    position: absolute;
+    font-family: helvetica neue;
+    font-weight:lighter;
+    overflow: hidden;
+    /* Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serifHelvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif */
+    font-size: 58px;
+    color: #3A3A3A;
+    /* margin-left: 50%; */
+}
+h3{
+    position: absolute;
+    font-family: helvetica;
+    color: #3A3A3A;
+    margin-top: 20%;
+    font-weight:lighter;
+    font-size:medium;
+    /* z-index: 3; */
+    /* margin-left: 50%; */
+    /* margin-top: 17%; */
+}
+
+/* men women and kids shoes */
+
+.MainPage-Container{
+    /* max-width:max-content; */
+    align-items: center;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    flex-direction: row;
+    /* position: relative; */
+
+}
+
+.items{
+    /* position: absolute; */
+    align-items: center;
+    width: 350px;
+    height: 500px;
+    flex:1;
+}
+.fit{
+    flex: 1;
+}
+.kundi{
+    align-items: center;
+    width: 350px;
+    height: 350px;
+}
