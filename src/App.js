@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './Components/Navbar';
 import MainPage from './Components/MainPage';
-import Category from './Components/Category';
+import Category from './Components/Category/Category';
 function App() {
   return (
     <div>

@@ -1,0 +1,62 @@
+.kundi{
+    align-items: center;
+    width: 350px;
+    height: 350px;
+}
+
+/* men women and kids shoes */
+
+.MainPage-Container{
+    /* max-width:max-content; */
+    display: flex;
+    flex: 1;
+    /* flex-wrap: wrap; */
+    flex-wrap: nowrap;
+    /* height: 100vh; */
+    align-items: center;
+    flex-direction: row;
+    /* gap: 0.1px; */
+    /* position: relative; */
+    gap: 1rem;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.items{
+    /* position: absolute; */
+    /* align-items: center; */
+    width: 20%;
+    height: 470px;  
+    flex:1;
+    text-align:center;
+    /* background-color: aqua; */
+}
+.categoryText1{
+    font-family: helvetica;
+    font-weight: lighter;
+    font-size: 22px;
+    color: #3A3B3B;
+    text-align: left;
+}
+.categoryText2{
+    font-family: helvetica;
+    font-weight:300;
+    font-size: 17px;
+    color: #3A3B3B;
+    text-align:left;
+}
+.shopButton{
+    position: absolute;
+    background-color: #3A3B3B;
+    color: white;
+    font-family: helvetica;
+    padding: 8px;
+    font-weight: 700;
+    box-sizing: content-box;
+    /* margin-right: 69%; */
+    text-align: center;
+    margin-left: -9.8%;
+    border-radius: 5%;
+    border: 0px;
+}

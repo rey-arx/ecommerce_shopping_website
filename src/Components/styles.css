@@ -70,32 +70,3 @@ h3{
     /* margin-left: 50%; */
     /* margin-top: 17%; */
 }
-
-/* men women and kids shoes */
-
-.MainPage-Container{
-    /* max-width:max-content; */
-    align-items: center;
-    display: flex;
-    /* flex-wrap: wrap; */
-    align-items: center;
-    flex-direction: row;
-    /* position: relative; */
-
-}
-
-.items{
-    /* position: absolute; */
-    align-items: center;
-    width: 350px;
-    height: 500px;
-    flex:1;
-}
-.fit{
-    flex: 1;
-}
-.kundi{
-    align-items: center;
-    width: 350px;
-    height: 350px;
-}
