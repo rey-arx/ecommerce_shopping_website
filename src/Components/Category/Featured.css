@@ -1,0 +1,35 @@
+.featuredContainer{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    
+    /* flex-wrap: nowrap; */
+    align-items: center;
+    gap: 5px;
+    margin-left: 20%;
+    margin-right: 25%;
+    /* text-align: center; */
+
+}
+
+.featuredItems{
+flex: 1;
+width: 300px;
+    height: 350px;
+}
+.featuredText{
+    font-weight: 600;
+    font-size: large;
+}
+
+.featuredItems img{
+    background-color: #F7F7F6;
+}
+
+footer{
+    margin-top: 5%;
+    background-color: #F7F7F6;
+    height :55px;
+    width: 100%;
+    position: absolute;
+}

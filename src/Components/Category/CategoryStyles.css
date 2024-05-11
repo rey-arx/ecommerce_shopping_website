@@ -27,9 +27,10 @@
     /* position: absolute; */
     /* align-items: center; */
     width: 20%;
-    height: 470px;  
+    height: 570px;  
     flex:1;
     text-align:center;
+    flex-wrap: wrap;
     /* background-color: aqua; */
 }
 .categoryText1{
