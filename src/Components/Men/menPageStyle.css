@@ -1,0 +1,71 @@
+.menpage-GridContainer{
+    display: grid;
+    grid-template-columns:  repeat(3 , 1fr);
+    grid-template-rows:  repeat(350px)  ;
+    row-gap: 9px;
+    column-gap: 5px;
+    /* width: px;
+    height: 300px; */
+    margin-right: 20%;
+    margin-left: 20%;
+    font-family: helvetica;
+}
+
+.item{
+    /* background-color:antiquewhite; */
+    /* border: 2px solid black; */
+}
+
+.title{
+    grid-column: 1 2;
+} 
+.sortby{
+    padding-left: 74%;
+    grid-column-start:2;
+    grid-column-end: 5;
+
+}
+.sortby p,select{
+    margin-top: 4%;
+}
+.sidebarfilter{
+    grid-row-start: 2;
+    grid-row-end: 6;
+}
+.selectt{
+  display:inline;
+   padding:7px;
+   right: 11px;
+   height: 37px;
+   width: 100%;
+  max-width: 130px;
+  font-size:medium;
+  text-align: left;
+}
+
+.item img{
+    width: 270px;
+    height: 270px;
+    background-color: #F7F7F6;
+
+}
+.item p{
+    font-weight: 700;
+    font-family: arial;
+    font-size: 18px;
+    padding-right: 27%;
+    color: #403e39;
+    line-height: 25px;
+    
+}
+
+/* sorting css */
+.shoByFlex_container{
+display: flex;
+flex-direction: column;
+height: 400px;
+
+}
+.flexItem{
+    flex: 1;
+}

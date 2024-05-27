@@ -8,10 +8,11 @@
 
 .MainPage-Container{
     /* max-width:max-content; */
+    position: relative;
     display: flex;
     flex: 1;
-    /* flex-wrap: wrap; */
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    /* flex-wrap: nowrap; */
     /* height: 100vh; */
     align-items: center;
     flex-direction: row;
@@ -24,13 +25,16 @@
 }
 
 .items{
-    /* position: absolute; */
+    position: relative;
+    display: inline;
     /* align-items: center; */
     width: 20%;
     height: 570px;  
     flex:1;
     text-align:center;
     flex-wrap: wrap;
+    flex-direction: row;
+
     /* background-color: aqua; */
 }
 .categoryText1{
